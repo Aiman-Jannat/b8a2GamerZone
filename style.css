@@ -287,7 +287,7 @@
   
 
   
-    .icnn-0, .icnn-1, .icnn-2,.icnn-3,.icnn-4,.icnn-5,.icnn-6,.icnn-7,.icnn-8{  
+    .icnn-0, .icnn-1, .icnn-2,.icnn-3,.icnn-4,.icnn-5,.icnn-6,.icnn-7,.icnn-88{  
     height: 60px;
     width: 200px;
     display: flex;
@@ -322,8 +322,8 @@
   .icnn-7{
     grid-area: icnn-7;
   }
-  .icnn-8{
-    grid-area: icnn-8;
+  .icnn-88{
+    grid-area: icnn-88;
   } 
 .manyicons{
     margin-top: 170px;
@@ -332,8 +332,10 @@
    display: grid;
    justify-content: center;
    gap: 20px;
+   padding-top: 60px;
     grid-template-areas: 
     "icnn-0 icnn-1 icnn-2 icnn-3 icnn-4"
+    "icnn-5 icnn-6 icnn-7 icnn-88"
     
     
     ; 

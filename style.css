@@ -368,15 +368,20 @@
   .nav{
     display: block;
   }
-  .right >li{
-    display: block;
+  .uul{
+    display: flex;
+    flex-direction: column;
   }
   .banner{
     display: block
     ;
   }
   .left1{
+    position: static;
+    margin-top: 50px;
     text-align: center;
+    
+    flex-wrap: wrap;
   }
   .gamer{
     display: block;

@@ -477,6 +477,181 @@
   .left3{
     text-align: center;
   }
+  .u{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .m{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .d{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .up,.down{
+    display: grid;
+    grid-template-areas: 
+    "icnn0 icnn1 icnn2"
+    "icnn3 icnn4 icnn5"
+    "icnn6 icnn7 icnn8";
+  }
+  .snd{
+    flex-wrap: wrap;
+  }
+  .trd{
+    flex-wrap: wrap;
+  }
+  .fth{
+    flex-wrap: wrap;
+  }
+  .fith{
+    flex-wrap: wrap;
+  }
+
+
+  .footer{
+    margin-top: 100px;
+  }
+  .icnn-0, .icnn-1, .icnn-2,.icnn-3,.icnn-4,.icnn-5,.icnn-6,.icnn-7,.icnn-88{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    font-size: 0.5rem;
+    color: black;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-items: center;
+    padding: 4px;
+    background-color: white;
+    margin: 0px;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) 
+{
+  .icnn-0, .icnn-1, .icnn-2,.icnn-3,.icnn-4,.icnn-5,.icnn-6,.icnn-7,.icnn-88{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    font-size: 0.5rem;
+    color: black;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-items: center;
+    padding: 4px;
+    background-color: white;
+    margin: 0px;
+  }
+  .footer{
+    margin-top: 200px;
+    height: 100%;
+  }
+  .nav{
+    display: block;
+  }
+  .uul{
+   
+    flex-direction: column;
+  }
+  .banner{
+    flex-direction: column;
+
+  }
+  .left1{
+    margin-top: 120px;
+    margin-left: 20%;
+    margin-right: 25%;
+    width: 50%;
+    text-align: center;
+  }
+  .u{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .m{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .d{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .gamer{
+    margin-top: 150px;
+    flex-direction: column;
+  }
+  .img100{
+    padding-top: 30px;
+    width: 100%;
+  }
+  .left2
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+  .right2,.left3{
+    margin: 10px 25%;
+    text-align: center;
+  }
+  .right3{
+       width: 80%;     
+  }
+  .img6{
+    width: 70%;
+    margin: auto;
+    margin-left: 30%;
+    height: 100%;
+  }
+  .img7{
+    width: 30%;
+    margin-left: 150px;
+    height: 40%;
+    margin-top: 150px;
+  }
+  
+  .right2{
+    text-align: center;
+  }
+  .funny{
+    margin:40px 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .funnny{
+    margin: 40px 25%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .play{
+    display: block;
+  }
+  .fx{
+    
+    
+    
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .left3{
+    text-align: center;
+  }
   .icnn-0{
     grid-area: icnn0;
   }
@@ -524,8 +699,6 @@
     flex-wrap: wrap;
   }
 
-
-  
 }
 
   
